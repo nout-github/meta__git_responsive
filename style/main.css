@@ -1,0 +1,2147 @@
+@import 'font.css';
+@import 'icon.css';
+
+
+:root {
+   --Font_A: 'Audiowide';
+   --Font_D: 'DMMono';
+   --Font_I: 'Inter';
+   --yawil: #8DFD1B;
+   --text: #ffffff;
+   --qora: #000000;
+   --seriy: #A8A8A8;
+   --t-seriy: #222222;
+   --f-t-seriy: #C4C4C4;
+   --footer: #42006A;
+}
+
+.content__one * {
+   margin: 0;
+   padding: 0;
+   box-sizing: border-box;
+}
+
+a {
+   text-decoration: none;
+}
+
+ul {
+   list-style: none;
+}
+
+.wrapper {
+   background: var(--qora);
+   width: 100%;
+}
+
+/* HEADER */
+
+/* NAVBAR****************************************************************************** */
+
+.navbar {
+   max-width: 1400px;
+   width: 100%;
+   margin: auto;
+   padding: 0 15px;
+}
+
+
+.nav__list {
+   display: flex;
+   align-items: center;
+}
+
+
+
+.nav__item {
+   padding-left: 40px;
+}
+
+.nav__link {
+   font-family: var(--Font_D);
+   color: var(--text);
+}
+
+.nav__one {
+   display: flex;
+   margin: 53px 0 17px 0;
+}
+
+.nav__two {
+   margin: 58px 0 17px 0;
+}
+
+.nav__two_link {
+   margin-right: 12px;
+}
+
+/* CONTENT ***************************************************************** */
+
+.content {
+   max-width: 1450px;
+   width: 100%;
+   margin: auto;
+   padding: 0 15px;
+   display: flex;
+   margin-bottom: 121px;
+}
+
+.content__title {
+   font-family: var(--Font_A);
+   width: 484px;
+   color: var(--text);
+   font-size: 51px;
+   margin: 128px 19px 43px 72px;
+}
+
+.content__desc {
+   font-family: var(--Font_I);
+   width: 340px;
+   color: var(--text);
+   line-height: 26px;
+   margin: 0 163px 115px 72px;
+}
+
+.content__link {
+   font-family: var(--Font_D);
+   background: var(--yawil);
+   color: var(--qora);
+   padding: 17px 40px 27px 40px;
+   margin: 0 298px 103px 72px;
+}
+
+/* MAIN************************************************ */
+
+.main__one {
+   width: 100%;
+   padding: 0 15px;
+   display: flex;
+}
+
+.main__one_ikki {
+   position: relative;
+}
+
+.main__one_bir-title__one {
+   font-family: var(--Font_A);
+   width: 228px;
+   font-size: 38px;
+   color: var(--text);
+   margin: 0 284px 0 106px;
+}
+
+.main__one_bir-title__two {
+   font-family: var(--Font_A);
+   width: 351px;
+   font-size: 38px;
+   line-height: 46px;
+   color: var(--seriy);
+   margin: 0 161px 41px 106px;
+}
+
+.main__one_bir__img {
+   margin: 0 220px 113px 40px;
+}
+
+.main__one_ikki__title {
+   font-family: var(--Font_D);
+   width: 546px;
+   font-size: 21px;
+   line-height: 32px;
+   color: var(--yawil);
+   margin: 0 252px 27px 22px;
+
+}
+
+.main_one-before::before {
+   content: '';
+   width: 2px;
+   height: 124px;
+   position: absolute;
+   background: var(--yawil);
+   top: 0;
+   left: 0;
+}
+
+.main__one_ikki__desc__one {
+   font-family: var(--Font_I);
+   width: 551px;
+   color: var(--text);
+   line-height: 26px;
+   margin: 0 269px 18px 0;
+}
+
+.main__one_ikki__desc__two {
+   font-family: var(--Font_I);
+   width: 551px;
+   color: var(--text);
+   line-height: 26px;
+   margin: 0 258px 17px 0;
+}
+
+.main__one_ikki__desc__three {
+   font-family: var(--Font_I);
+   width: 551px;
+   color: var(--text);
+   line-height: 26px;
+   margin: 0 256px 36px 0;
+}
+
+.main__one_ikki__link {
+   font-family: var(--Font_D);
+   max-width: 246px;
+   border: 1px solid var(--yawil);
+   color: var(--text);
+   padding: 10px 33px 16px 33px;
+   margin: 0 574px 172px 0;
+}
+
+/*ARTIST*****************************************************  */
+
+.artist {
+   max-width: 394px;
+   width: 100%;
+   font-size: 79px;
+   font-family: var(--Font_A);
+   text-transform: uppercase;
+   line-height: 88px;
+   color: var(--text);
+}
+
+[data-arrow] {
+   padding: 15px;
+   display: none;
+}
+
+.slider_inner {
+   height: 88px;
+}
+
+.slider-item {
+   display: flex;
+   justify-content: center;
+   font-family: var(--Font_A);
+   font-size: 80px;
+   color: var(--text);
+}
+
+.main_artist__imgages {
+   max-width: 1160px;
+   margin: 127px 0 258px 40px;
+}
+
+.artist_img__one {
+   display: flex;
+   margin-left: 69px;
+}
+
+.artist_img__two {
+   display: flex;
+}
+
+.artist_card {
+   margin-right: 60px;
+}
+
+.artist_img__title {
+   font-family: var(--Font_D);
+   color: var(--text);
+   margin: 20px 0 80px 0;
+   text-align: center;
+}
+
+/* THE STORY.************************************************************* */
+*,
+*::before,
+*::after {
+   box-sizing: border-box;
+}
+
+/* body {
+	margin: 0;
+	font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+	font-size: 16px;
+	font-weight: 400;
+	line-height: 1.5;
+	color: #333;
+	background-color: #fff;
+	padding: 30px;
+} */
+
+.container {
+   max-width: 1160px;
+   width: 100px;
+   margin: 61px 240px 120px 40px;
+}
+
+.tabs {
+   display: flex;
+   justify-content: space-between;
+   /* flex-direction: column; */
+}
+
+.tabs__links {
+   display: flex;
+   flex-direction: column;
+   /* overflow: hidden;
+	width: 100%;
+	margin-left: auto;
+	margin-right: auto;
+	order: 0;
+	margin-bottom: 10px;
+	background-color: #fff;
+	border: 1px solid #333;
+	border-radius: 10px; */
+
+}
+
+.tabs__links-item {
+   display: inline-block;
+   text-decoration: none;
+   font-family: var(--Font_D);
+   width: 282px;
+   height: 72px;
+   /* background: var(--t-seriy); */
+   color: var(--text);
+   padding: 25px 134px 31px 28px;
+
+   /* padding: 6px 10px;
+	text-align: center;
+	color: #333;
+	flex: 0 1 33.333%; */
+}
+
+.tabs__links-item:hover {
+   color: var(--yawil);
+}
+
+.tabs>#tab-1:target~.tabs__links>a[href="#tab-1"],
+.tabs>#tab-2:target~.tabs__links>a[href="#tab-2"],
+.tabs>#tab-3:target~.tabs__links>a[href="#tab-3"] {
+   background-color: var(--t-seriy);
+   cursor: default;
+   color: var(--yawil);
+}
+
+.tabs>div:not(.tabs__links) {
+   display: none;
+   order: 1;
+}
+
+.tabs>div:target {
+   display: block;
+}
+
+.the_story__title {
+   font-family: var(--Font_A);
+   color: var(--text);
+   font-size: 37px;
+   text-align: center;
+}
+
+.tab-main__one,
+.tab-main__two,
+.tab-main__tree {
+   /* max-width: 878px; */
+   background: var(--t-seriy);
+
+}
+
+
+.tab_conten__extra {
+   display: flex;
+}
+
+.tab_conten__extra-elements {
+   position: relative;
+}
+
+.tab_conten__extra-img {
+   margin: 60px 38px 225px 60px;
+   position: relative;
+}
+
+.tab-content__title {
+   font-family: var(--Font_D);
+   width: 494px;
+   font-size: 21px;
+   line-height: 32px;
+   margin: 71px 90px 28px 60px;
+   color: var(--yawil);
+}
+
+.tab__menu-before::before {
+   content: '';
+   width: 2px;
+   height: 94px;
+   position: absolute;
+   background: var(--yawil);
+   top: 0;
+   left: 0;
+   margin: 70px 22px 32px 38px;
+}
+
+.tab__menu-before-tree {
+   content: '';
+   width: 2px;
+   height: 94px;
+   position: absolute;
+   background: var(--yawil);
+   top: 0;
+   left: 0;
+   margin: 375px 22px 76px 40px;
+   /* margin: 70px 22px 32px 38px; */
+}
+
+.tab-content__desc_one,
+.tab-content__desc_two,
+.tab-content__desc_tree {
+   font-family: var(--Font_I);
+   line-height: 26px;
+   color: var(--text);
+}
+
+.tab-content__desc_one {
+   margin: 28px 77px 18px 40px;
+}
+
+.tab-content__desc_two {
+   margin: 18px 84px 18px 40px;
+}
+
+.tab-content__desc_tree {
+   margin: 17px 84px 76px 40px;
+}
+
+/* .the_story__title-extra {
+   font-family: var(--Font_A);
+   color: var(--seriy);
+   font-size: 38px;
+}
+
+.tabs__story {
+   display: flex;
+   margin-top: 61px;
+}
+
+.tabs__nav {
+   display: flex;
+   flex-direction: column;
+}
+
+.nav-item {
+   width: 282px;
+   background-color: var(--qora);
+}
+
+
+.nav-tabs, .nav-link {
+   border-radius: 0;
+}
+
+.nav-link{
+   font-family: var(--Font_D);
+   color: var(--text);
+   padding: 25px 134px 31px 28px;
+}
+
+.tab_content {
+   max-width: 878px;
+   background-color: var(--t-seriy);
+}
+
+.tab_conten__extra {
+   display: flex;
+}
+
+.tab_conten__extra-elements {
+   position: relative;
+}
+
+.tab-content__img {
+   margin: 60px 38px 225px 60px;
+}
+
+.tab-content__title {
+   font-family: var(--Font_D);
+   width: 494px;
+   font-size: 21px;
+   line-height: 32px;
+   margin: 71px 90px 28px 60px;
+   color: var(--yawil);
+}
+
+.tab__menu-before::before {
+   content: '';
+   width: 2px;
+   height: 94px;
+   position: absolute;
+   background: var(--yawil);
+   top: 0;
+   left: 0;
+   margin: 70px 22px 32px 38px;
+}
+
+.tab-content__desc_one, .tab-content__desc_two, .tab-content__desc_tree {
+   font-family: var(--Font_I);
+   line-height: 26px;
+   color: var(--text);
+}
+
+.tab-content__desc_one {
+   margin: 28px 77px 18px 40px;
+}
+
+.tab-content__desc_two {
+   margin: 18px 84px 18px 40px;
+}
+
+.tab-content__desc_tree {
+   margin: 17px 84px 76px 40px;
+}
+
+.nav-tabs .nav-link.active {
+   background: var(--t-seriy);
+   color: var(--yawil);
+   border: none;
+   border-radius: 0;
+}
+
+.nav-tabs .nav-link {
+   background: var(--qora);
+   color: var(--text);
+
+} */
+
+.main-img {
+   width: 100%;
+   margin-top: 120px;
+}
+
+/* ROADMAP******************************************************************** */
+
+.roadmap-cards {
+   position: relative;
+   z-index: 999;
+}
+
+.roadmap-cards__one_bir-before::before {
+   content: '';
+   background: url(../images/IMAGE\ \(23\).png);
+   position: absolute;
+   width: 672px;
+   height: 672px;
+   left: calc(50% - 672px/2 - 360px);
+   top: -336px;
+   border-radius: 0px;
+}
+
+.roadmap-cards__two_ikki-before {
+   content: '';
+   background: url(../images/IMAGE\ \(23\).png);
+   position: absolute;
+   width: 672px;
+   height: 672px;
+   left: 0;
+   right: 0;
+   top: 0;
+   bottom: 0;
+   margin: 221px 25px 95px 790px;
+}
+
+.roadmap-cards__tree_uc-before {
+   content: '';
+   background: url(../images/IMAGE\ \(23\).png);
+   position: absolute;
+   width: 672px;
+   height: 672px;
+   left: 0;
+   right: 0;
+   top: 0;
+   bottom: 0;
+   margin: 800px 745px 61px 25px;
+}
+
+.roadmap-cards__one_before::before {
+   content: '';
+   position: absolute;
+   width: 1px;
+   height: 40px;
+   background: var(--yawil);
+   left: calc(50% - 1px/2 + 0.5px);
+   top: 340px;
+}
+
+.roadmap-cards__two_before::before {
+   content: '';
+   position: absolute;
+   width: 1px;
+   height: 40px;
+   background: var(--yawil);
+   left: calc(50% - 1px/2 + 0.5px);
+   top: 830px;
+}
+
+.roadmap__title {
+   font-family: var(--Font_A);
+   color: var(--text);
+   font-size: 37px;
+   text-align: center;
+   margin: 118px 0 106px 0;
+}
+
+.roadmap-cards__one,
+.roadmap-cards__two,
+.roadmap-cards__tree {
+   max-width: 540px;
+   width: 100%;
+   margin: auto;
+   background: var(--t-seriy);
+   border: 1px solid var(--yawil);
+}
+
+.roadmap-cards__one,
+.roadmap-cards__two {
+   margin-bottom: 140px;
+}
+
+.roadmap-cards__one-tepa,
+.roadmap-cards__two-tepa,
+.roadmap-cards__tree-tepa {
+   display: flex;
+   border-bottom: solid 1px var(--yawil);
+}
+
+.roadmap-cards__one_title,
+.roadmap-cards__two_title,
+.roadmap-cards__tree_title {
+   font-family: var(--Font_D);
+   width: 45px;
+   height: 45px;
+   font-size: 28px;
+   background: var(--yawil);
+   color: var(--qora);
+   padding: 8px 16px;
+   margin: 13px 12px;
+}
+
+.roadmap-cards__one_title-mini,
+.roadmap-cards__two_title-mini,
+.roadmap-cards__tree_title-mini {
+   font-family: var(--Font_D);
+   font-size: 8px;
+   color: var(--yawil);
+   margin: 16px 356px 1px 12px;
+}
+
+.roadmap-cards__one_title-extra,
+.roadmap-cards__two_title-extra,
+.roadmap-cards__tree_title-extra {
+   font-family: var(--Font_D);
+   width: 234px;
+   color: var(--text);
+   margin: 0 236px 14px 12px;
+   font-size: 16px;
+}
+
+.roadmap-cards__two_title {
+   background: var(--t-seriy);
+   border: 1px solid var(--yawil);
+   padding: 6px 18px 8px 14px;
+   color: var(--yawil);
+}
+
+.roadmap-cards__tree_title {
+   background: var(--t-seriy);
+   border: 1px solid var(--yawil);
+   padding: 6px 18px 8px 14px;
+   color: var(--yawil);
+}
+
+.roadmap-cards__tree_title-extra {
+   width: 273px;
+}
+
+.roadmap-cards__one-pas,
+.roadmap-cards__two-pas,
+.roadmap-cards__tree-pas {
+   display: flex;
+}
+
+.roadmap-cards__one-pas_title {
+   width: 62px;
+   height: 32px;
+   font-family: var(--Font_I);
+   font-size: 11px;
+   color: var(--text);
+   margin: 26px 301px 0 35px;
+}
+
+.roadmap-cards__one-pas_desc-one {
+   font-family: var(--Font_I);
+   font-size: 11px;
+   width: 167px;
+   height: 32px;
+   color: var(--text);
+   margin: 0 196px 0 35px;
+}
+
+.roadmap-cards__one-pas_desc-two {
+   font-family: var(--Font_I);
+   width: 124px;
+   height: 32px;
+   font-size: 12px;
+   color: var(--text);
+   margin: 0 239px 12px 35px;
+}
+
+.roadmap-cards__one-pas_desc-tree {
+   font-family: var(--Font_I);
+   width: 298px;
+   height: 52px;
+   font-size: 11px;
+   line-height: 26px;
+   color: var(--text);
+   margin: 12px 87px 30px 13px;
+}
+
+.roadmap-cards__one-pas_img {
+   margin: 30px 13px 41px 0;
+}
+
+.roadmap-cards__two-pas_title {
+   font-family: var(--Font_I);
+   width: 133px;
+   height: 32px;
+   font-size: 11px;
+   color: var(--text);
+   margin: 25px 230px 0 35px;
+}
+
+.roadmap-cards__two-pas_desc-one {
+   font-family: var(--Font_I);
+   width: 231px;
+   height: 32px;
+   font-size: 11px;
+   color: var(--text);
+   margin: 0 132px 1px 35px;
+}
+
+.roadmap-cards__two-pas_desc-two {
+   font-family: var(--Font_I);
+   width: 251px;
+   height: 64px;
+   font-size: 11px;
+   color: var(--text);
+   margin: 0 112px 0 35px;
+}
+
+.roadmap-cards__two-pas_desc-tree {
+   font-family: var(--Font_I);
+   margin: 167px;
+   height: 26px;
+   font-size: 12px;
+   color: var(--text);
+   margin: 0 218px 14px 13px;
+}
+
+.roadmap-cards__two-pas_desc-four {
+   font-family: var(--Font_I);
+   width: 293px;
+   height: 52px;
+   font-size: 11px;
+   color: var(--text);
+   margin: 0 92px 30px 13px;
+}
+
+.roadmap-cards__two-pas_img {
+   margin: 29px 13px 100px 0;
+}
+
+.roadmap-cards__tree-pas_title {
+   font-family: var(--Font_I);
+   width: 141px;
+   height: 32px;
+   font-size: 11px;
+   color: var(--text);
+   margin: 26px 222px 0 35px;
+}
+
+.roadmap-cards__tree-pas_desc-one {
+   font-family: var(--Font_I);
+   width: 151px;
+   height: 32px;
+   font-size: 11px;
+   color: var(--text);
+   margin: 0 212px 0 35px;
+}
+
+.roadmap-cards__tree-pas_desc-two {
+   font-family: var(--Font_I);
+   width: 175px;
+   height: 32px;
+   font-size: 12px;
+   color: var(--text);
+   margin: 0 188px 12px 35px;
+}
+
+.roadmap-cards__tree-pas_desc-tree {
+   font-family: var(--Font_I);
+   width: 301px;
+   height: 77px;
+   font-size: 11px;
+   color: var(--text);
+   margin: 0 54px 24px 13px;
+}
+
+.roadmap-cards__tree-pas_img {
+   margin: 26px 13px 60px 0;
+}
+
+/*  Our partners*****************************************************************************/
+
+
+
+.our-partners__img {
+
+   margin: 286px 240px 243px 40px;
+}
+
+/* Frequently********************************************************************************** */
+
+.frequently {
+   max-width: 1160px;
+   width: 100%;
+   display: flex;
+}
+
+.frequently-one__titles {
+   margin: 0 283px 51px 99px;
+}
+
+.frequently-one__title {
+   font-family: var(--Font_A);
+   font-size: 38px;
+   color: var(--text);
+}
+
+.frequently-one__title_span {
+   font-family: var(--Font_A);
+   font-size: 38px;
+   color: var(--seriy);
+}
+
+.frequently-one__img {
+   margin: 0 220px 108px 99px;
+}
+
+.frequently-two {
+   width: 580px;
+   height: 600px;
+   background: var(--t-seriy);
+   position: relative;
+
+}
+
+.frequently-two__before_one::before {
+   content: '';
+   position: absolute;
+   width: 15px;
+   height: 17px;
+   background: var(--text);
+   margin: -36px 22px 38px 543px;
+}
+
+.frequently-two__before_two::before {
+   content: '';
+   position: absolute;
+   width: 15px;
+   height: 17px;
+   background: var(--text);
+   margin: -42px 22px 38px 543px;
+}
+
+.frequently-two__before_tree::before {
+   content: '';
+   position: absolute;
+   width: 15px;
+   height: 17px;
+   background: var(--text);
+   margin: -42px 22px 38px 543px;
+}
+
+.frequently-two__title-one {
+   font-family: var(--Font_D);
+   font-size: 16px;
+   color: var(--text);
+   margin: 24px 243px 26px 31px;
+}
+
+
+.frequently-two__desc-one {
+   font-family: var(--Font_I);
+   width: 514px;
+   font-size: 12px;
+   line-height: 20px;
+   color: var(--f-t-seriy);
+   margin: 26px 0 26px 31px;
+}
+
+.frequently-two__title-two {
+   font-family: var(--Font_D);
+   font-size: 16px;
+   color: var(--text);
+   margin: 0 283px 26px 31px;
+}
+
+.frequently-two__desc-two {
+   font-family: var(--Font_I);
+   width: 514px;
+   font-size: 12px;
+   line-height: 20px;
+   color: var(--f-t-seriy);
+   margin: 0 35px 29px 31px;
+}
+
+.frequently-two__desc-tree {
+   font-family: var(--Font_I);
+   width: 514px;
+   font-size: 12px;
+   line-height: 20px;
+   color: var(--f-t-seriy);
+   margin: 0 0 26px 31px;
+}
+
+.frequently-two__title-tree {
+   font-family: var(--Font_D);
+   font-size: 16px;
+   color: var(--text);
+   margin: 0 243px 26px 31px;
+}
+
+.frequently-two__desc-four {
+   font-family: var(--Font_I);
+   width: 514px;
+   font-size: 12px;
+   line-height: 20px;
+   color: var(--f-t-seriy);
+   margin: 0 35px 29px 31px;
+}
+
+/* TEAM */
+
+
+
+.team-cards {
+   max-width: 1160px;
+   width: 100%;
+   margin: auto;
+   display: flex;
+}
+
+.team-cards__one,
+.team-cards__two {
+   width: 320px;
+   margin-right: 100px;
+}
+
+.team-cards__tree {
+   width: 320px;
+}
+
+.team-cards__one-title__one {
+   font-family: var(--Font_D);
+   font-size: 21px;
+   color: var(--text);
+   margin: 19px 0 18px 0;
+   text-align: center;
+}
+
+.team-cards__one-title__two {
+   font-family: var(--Font_D);
+   font-size: 11px;
+   color: var(--yawil);
+   text-align: center;
+   margin-bottom: 22px;
+}
+
+.team-cards__one-img__two {
+   margin: 0 118px 22px 118px;
+}
+
+.team-cards__one-desc {
+   width: 238px;
+   font-family: var(--Font_I);
+   font-size: 12px;
+   color: var(--text);
+   line-height: 20px;
+   text-align: center;
+   margin: 0 40px 18px 40px;
+}
+
+.team-cards__two-title__one {
+   font-family: var(--Font_D);
+   font-size: 21px;
+   color: var(--text);
+   margin: 19px 0 18px 0;
+   text-align: center;
+}
+
+.team-cards__two-title__two {
+   font-family: var(--Font_D);
+   font-size: 11px;
+   color: var(--yawil);
+   text-align: center;
+   margin-bottom: 22px;
+}
+
+.team-cards__two-img__two {
+   margin: 0 118px 22px 118px;
+}
+
+.team-cards__two-desc {
+   width: 238px;
+   font-family: var(--Font_I);
+   font-size: 12px;
+   color: var(--text);
+   line-height: 20px;
+   text-align: center;
+   margin: 0 40px 18px 40px;
+}
+
+.team-cards__tree-title__one {
+   font-family: var(--Font_D);
+   font-size: 21px;
+   color: var(--text);
+   margin: 19px 0 18px 0;
+   text-align: center;
+}
+
+.team-cards__tree-title__two {
+   font-family: var(--Font_D);
+   font-size: 11px;
+   color: var(--yawil);
+   text-align: center;
+   margin-bottom: 22px;
+}
+
+.team-cards__tree-img__two {
+   margin: 0 118px 22px 118px;
+}
+
+.team-cards__tree-desc {
+   width: 238px;
+   font-family: var(--Font_I);
+   font-size: 12px;
+   color: var(--text);
+   line-height: 20px;
+   text-align: center;
+   margin: 0 40px 18px 40px;
+}
+
+/* Discord************************************************((***************************** */
+
+.discord {
+   max-width: 1167px;
+   width: 100%;
+   margin: auto;
+   display: flex;
+   margin-top: 253px;
+}
+
+.discord-one {
+   margin-top: 146px;
+}
+
+.discord__title-one {
+   font-family: var(--Font_A);
+   font-size: 51px;
+   text-transform: uppercase;
+   color: var(--text);
+
+}
+
+.discord__title-two {
+   font-family: var(--Font_A);
+   font-size: 51px;
+   text-transform: uppercase;
+   color: var(--yawil);
+   margin-bottom: 34px;
+   line-height: 25px;
+}
+
+.discord__desc {
+   width: 345px;
+   font-family: var(--Font_I);
+   font-size: 16px;
+   color: var(--text);
+   margin-bottom: 35px;
+}
+
+.discord-button {
+   font-family: var(--Font_D);
+   color: var(--qora);
+   background: var(--yawil);
+   padding: 14px 31px;
+   margin-bottom: 128px;
+}
+
+.discord-two__img {
+   margin-left: 240px;
+}
+
+/* FOOTER******************************************************************************* */
+
+footer {
+   width: 100%;
+   background: var(--footer);
+   margin-top: 118px;
+}
+
+.footer {
+   max-width: 1160px;
+   width: 100%;
+   padding: 0 15px;
+   margin: auto;
+   display: flex;
+}
+
+.footer-one {
+   margin: 103px 0 120px 0;
+}
+
+.footer-one__img {
+   margin: 0 170px 70px 0;
+}
+
+.footer-one__title {
+   font-family: var(--Font_D);
+   font-size: 13px;
+   color: var(--text);
+   margin-right: 64px;
+}
+
+.footer-two {
+   margin: 100px 0 120px 0;
+   display: flex;
+}
+
+.footer-two__ul-one {
+   margin-right: 100px;
+}
+
+.footer-two__item {
+   width: 110px;
+   margin-bottom: 29px;
+}
+
+.footer-two__item:last-of-type {
+   margin-bottom: 0;
+}
+
+.footer-two__link {
+   font-family: var(--Font_D);
+   color: var(--text);
+}
+
+.footer-tree {
+   width: 200px;
+   margin: 101px 0 201px 416px;
+}
+
+
+/* MediaQuery ................................................................................................. */
+
+
+@media(max-width:1535px) {
+
+   .navbar {
+      max-width: 1350px;
+      width: 100%;
+      margin: auto;
+      padding: 0 15px;
+   }
+
+   .content {
+      max-width: 1350px;
+      width: 100%;
+      margin: auto;
+      padding: 0 15px;
+   }
+
+   .content__two-img {
+      width: 750px;
+   }
+
+   .content__desc {
+      margin-bottom: 45px;
+   }
+
+
+}
+
+@media(max-width:1520px) {
+   .content__two-img {
+      width: 530px;
+      margin-left: -115px;
+   }
+
+   .content {
+      margin-bottom: 60px;
+   }
+
+   .navbar {
+      max-width: 1300px;
+   }
+
+
+}
+
+@media(max-width:1500px) {
+   .slider-item {
+      font-size: 60px;
+   }
+}
+
+@media(max-width:1480px) {
+   .main__one_ikki__link {
+      padding: 8px 30px 13px 30px;
+      font-size: 14px;
+   }
+
+   .roadmap-cards__one_bir-before::before,
+   .roadmap-cards__two_ikki-before,
+   .roadmap-cards__tree_uc-before {
+      content: '';
+      width: 0px;
+      height: 0px;
+   }
+
+   .footer-tree {
+      margin: 101px 0 201px 316px;
+   }
+
+
+}
+
+@media(max-width:1455px) {
+   .wrapper {
+      width: 122%;
+   }
+}
+
+@media(max-width:1440px) {
+   .nav {
+      max-width: 1300px;
+      width: 100%;
+   }
+
+}
+
+
+@media(max-width:1437px) {
+   .main__one_ikki__link {
+      padding: 6px 25px 10px 25px;
+      font-size: 12px;
+   }
+
+   .team-card__one_img__one,
+   .team-card__two_img__one,
+   .team-card__tree_img__one {
+      width: 280px;
+      height: 280px;
+   }
+}
+
+@media(max-width:1370px) {
+   .navbar {
+      max-width: 1300px;
+   }
+
+   .nav__one {
+      margin: 53px 0 17px 0;
+   }
+
+   .content__title {
+      width: 836px;
+      font-size: 80px;
+      margin: 128px 19px 43px 72px;
+   }
+
+   .content__desc {
+      font-family: var(--Font_I);
+      width: 300px;
+      font-size: 14px;
+      line-height: 23px;
+   }
+
+   .content__link {
+      padding: 14px 30px 24px 30px;
+   }
+
+}
+
+@media(max-width:1315px) {
+   .discord {
+      max-width: 1067px;
+   }
+
+   .frequently-one__title {
+      font-size: 32px;
+   }
+
+   .frequently-one__title_span {
+      font-size: 32px;
+   }
+
+   .frequently-two {
+      margin-left: -55px;
+   }
+
+}
+
+/* ***********************************************************MEDIA  1200PX *****************************************************************/
+
+@media(max-width:1200px) {
+   .wrapper {
+      width: 400%;
+   }
+
+   .navbar {
+      max-width: 2530px;
+      width: 100%;
+      margin: auto;
+      padding: 0 15px;
+   }
+
+   .nav__link {
+      font-size: 25px;
+   }
+
+
+   .nav__one {
+      display: flex;
+      margin: 53px 0 17px 0;
+   }
+
+   .nav__list {
+      display: flex;
+      align-items: center;
+   }
+
+   .nav__item {
+      padding-left: 40px;
+   }
+
+   .nav__link {
+      font-family: var(--Font_D);
+      color: var(--text);
+   }
+
+   .nav__two {
+      margin: 58px 0 17px 0;
+   }
+
+   .naw__two_icon {
+      width: 170px;
+   }
+
+   .nav__link {
+      font-size: 70px;
+   }
+
+   .nav__logo_pic {
+      width: 420px;
+   }
+
+   .nav__two_link {
+      margin-right: 12px;
+   }
+
+   .content__link {
+      width: max-content;
+      font-size: 60px;
+      margin-left: 75px;
+   }
+
+   .content__two-img {
+      width: 985px;
+   }
+
+   .content {
+      margin-left: 660px;
+   }
+
+   .content__desc {
+      font-size: 45px;
+      width: 685px;
+      line-height: 51px;
+   }
+
+
+
+   .main__one_ikki__title {
+      font-size: 40px;
+      width: 682px;
+      line-height: 55px;
+   }
+
+   .main__one_bir__img {
+      width: 555px;
+   }
+
+   .roadmap-cards__one,
+   .roadmap-cards__two,
+   .roadmap-cards__tree {
+      max-width: 1700px;
+      min-height: 1000px;
+   }
+
+   /* .roadmap-cards__tree {
+      max-width: 650px;
+      min-height: 300px;
+    } */
+
+   .our-partners__img {
+      max-width: 2315px;
+      width: 100%;
+      margin: 286px auto 243px;
+
+   }
+
+   .main_artist__imgages {
+      margin: 127px auto 258px 40px;
+   }
+
+   .artist_img__two {
+      margin: 0 57px auto;
+   }
+
+
+
+   .frequently-two {
+      min-height: 1000px;
+   }
+
+   .frequently-two__desc-one,
+   .frequently-two__desc-two {
+      width: 520px;
+      font-size: 50px;
+      line-height: 55px;
+      display: -webkit-box;
+      overflow: hidden;
+      min-height: 5px;
+      word-spacing: normal;
+      text-overflow: ellipsis;
+      -webkit-box-orient: vertical;
+      -webkit-line-clamp: 5;
+   }
+
+   .frequently-two__desc-two {
+      width: 520px;
+      font-size: 50px;
+      /* display: -webkit-box;
+      overflow: hidden;
+      min-height: 5px;
+      word-spacing: normal;
+      text-overflow: ellipsis;
+      -webkit-box-orient: vertical;
+      -webkit-line-clamp: 5; */
+   }
+
+   .frequently-two__desc-tree {
+      width: 520px;
+      font-size: 20px;
+      display: none;
+   }
+
+   .frequently-two__desc-four {
+      width: 520px;
+      font-size: 20px;
+      display: none;
+   }
+
+   .frequently-two__title-tree {
+      font-size: 25px;
+      width: 405px;
+      display: none;
+
+   }
+
+   
+
+   .frequently-two__title-one {
+      font-size: 50px;
+      width: 540px;
+      margin-bottom: 100px;
+   }
+
+   .frequently-two__title-two {
+      font-size: 50px;
+      width: 405px;
+   }
+
+   .frequently-one__img {
+      width: 670px;
+
+   }
+
+   .frequently-one__title {
+      font-size: 110px;
+   }
+
+   .frequently-one__title_span {
+      font-size: 110px;
+   }
+
+   .frequently {
+      max-width: 1500px;
+      width: 100%;
+      margin: 0 auto 100px auto;
+   }
+
+   .team-cards {
+      flex-direction: column;
+
+   }
+
+   .team-cards__one-img__one,
+   .team-cards__two-img__one,
+   .team-cards__tree-img__one {
+      width: 1000px;
+   }
+
+   .team-cards__one,
+   .team-cards__two {
+      max-width: 1000px;
+      width: 100%;
+      margin-right: 0;
+   }
+
+   .team-cards__one-title__one,
+   .team-cards__two-title__one,
+   .team-cards__tree-title__one {
+      font-size: 90px;
+      width: 1000px;
+      text-align: center;
+   }
+
+   .team-cards__one-title__two,
+   .team-cards__two-title__two,
+   .team-cards__tree-title__two {
+      font-size: 50px;
+      width: 1000px;
+   }
+
+   .team-cards__tree {
+      text-align: center;
+      width: 1000px;
+   }
+
+   .team-cards__one-img__two,
+   .team-cards__two-img__two,
+   .team-cards__tree-img__two {
+      margin: 0;
+      margin-left: 257px;
+      margin-bottom: 20px;
+      width: 480px;
+   }
+
+   .team-cards__tree-img__two {
+      margin: 0;
+      margin-left: -14px;
+      margin-bottom: 20px;
+      width: 480px;
+   }
+
+   .team-cards__one-desc,
+   .team-cards__two-desc,
+   .team-cards__tree-desc {
+      font-size: 50px;
+      width: 1000px;
+      text-align: center;
+      line-height: 70px;
+   }
+
+   .roadmap-cards__one_title-mini,
+   .roadmap-cards__two_title-mini,
+   .roadmap-cards__tree_title-mini {
+      font-size: 50px;
+      width: 570px;
+   }
+
+   .roadmap-cards__one_title-extra,
+   .roadmap-cards__two_title-extra,
+   .roadmap-cards__tree_title-extra {
+      font-size: 35px;
+      width: 420px;
+   }
+
+   .roadmap-cards__one_title,
+   .roadmap-cards__two_title,
+   .roadmap-cards__tree_title {
+      margin: 25px 30px;
+   }
+
+   .roadmap-cards__one-pas_title {
+      font-size: 58px;
+      width: 313px;
+      margin-bottom: 74px;
+   }
+
+   .roadmap-cards__one-pas_desc-two {
+      font-size: 45px;
+      width: 332px;
+      margin-top: 116px;
+      margin-bottom: 150px;
+   }
+
+   .roadmap-cards__pic {
+      width: 755px;
+      margin-left: 277px;
+      margin-top: -9px;
+   }
+
+   .roadmap-cards__tree-pas_desc-tree{
+      padding: 0 20px;
+   }
+
+   .roadmap-cards__pic_img__extra {
+      margin-left: -495px;
+   }
+
+   .roadmap-cards__pic_extra {
+      margin-left: 150px;
+   }
+
+   .roadmap-cards__one-pas_desc-one {
+      font-size: 55px;
+      width: 504px;
+      margin-bottom: 177px;
+   }
+
+   .roadmap-cards__one-pas_desc-tree {
+      font-size: 38px;
+      width: 505px;
+      line-height: 85px;
+      padding: 0 20px;
+      display: -webkit-box;
+      overflow: hidden;
+      min-height: 255px;
+      word-spacing: normal;
+      text-overflow: ellipsis;
+      -webkit-box-orient: vertical;
+      -webkit-line-clamp: 4;
+   }
+
+   .roadmap-cards__two-pas_title {
+      font-size: 55px;
+      width: 316px;
+      margin-bottom: 151px;
+      margin-right: 0;
+   }
+
+   .roadmap-cards__two-pas_desc-one {
+      font-size: 50px;
+      width: 542px;
+      margin-bottom: 192px;
+      margin-right: 0;
+   }
+
+   .roadmap-cards__two-pas_desc-two {
+      font-size: 42px;
+      width: 455px;
+      margin-bottom: 118px;
+   }
+
+   .roadmap-cards__two-pas_desc-tree {
+      font-size: 44px;
+      width: 614px;
+      margin-bottom: 110px;
+      margin-right: 0;
+      padding: 0 20px;
+
+   }
+
+   .roadmap-cards__two-pas_desc-four {
+      font-size: 36px;
+      width: 600px;
+      margin-bottom: 40px;
+      margin-right: 0;
+      padding: 0 20px;
+      display: -webkit-box;
+      overflow: hidden;
+      min-height: 100px;
+      word-spacing: normal;
+      text-overflow: ellipsis;
+      -webkit-box-orient: vertical;
+      -webkit-line-clamp: 4;
+   }
+
+   .roadmap__extra_more {
+      font-size: 50px;
+      width: 735px;
+      margin-bottom: 80px;
+   }
+
+   .roadmap__extra_more:last-of-type {
+      margin-top: 90px;
+      margin-bottom: 83px;
+   }
+
+   .roadmap__ultra_extra {
+      margin-left: -100px;
+   }
+
+   .artist_img__one {
+      width: 560px;
+   }
+
+   .main__one {
+      display: flex;
+      justify-content: center;
+   }
+
+   .content {
+      margin: 0 auto 180px;
+      max-width: 2450px;
+      width: 100%;
+      display: flex;
+      justify-content: space-between;
+   }
+
+   .main__one_bir-title__one {
+      font-size: 105px;
+      width: 630px;
+   }
+
+   .main__one_bir-title__two {
+      font-size: 85px;
+      margin-top: 57px;
+      line-height: 100px;
+   }
+
+
+
+   .main__one_ikki__desc__one,
+   .main__one_ikki__desc__two,
+   .main__one_ikki__desc__three {
+      font-size: 40px;
+      width: 1182px;
+      line-height: 60px;
+   }
+
+   .main__one_ikki__link {
+      font-size: 50px;
+   }
+
+   .artist__pic_extra {
+      width: 570px;
+   }
+
+   .artist_img__title {
+      font-size: 50px;
+   }
+
+   .tabs__links-item {
+      font-size: 50px;
+      width: 535px;
+      margin-top: 50px;
+      height: 127px;
+   }
+
+   .tab-content__title {
+      font-size: 45px;
+      width: 1000px;
+      height: 200px;
+      line-height: 50px;
+   }
+
+   .tab-content__desc_one,
+   .tab-content__desc_two,
+   .tab-content__desc_tree {
+      font-size: 35px;
+      line-height: 45px;
+   }
+
+   .discord {
+      width: 100px;
+      justify-content: center;
+   }
+
+   .discord__title-one,
+   .discord__title-two {
+      font-size: 120px;
+      width: 668px;
+      margin-bottom: 90px;
+
+   }
+
+   .discord__desc {
+      font-size: 50px;
+      width: 656px;
+   }
+
+   .discord-two__img {
+      width: 950px;
+      margin-top: 150px;
+   }
+
+   .discord-button {
+      font-size: 71px;
+   }
+
+   .discord__pic_extra {
+      width: 49px;
+   }
+
+
+
+   .footer__icons_pic {
+      width: 355px;
+   }
+
+   .footer-one__title,
+   .footer-two__link {
+      font-size: 30px;
+      width: 300px;
+   }
+
+
+
+}
+
+/* ************************************************************MEDIA 800PX******************************************************************** */
+
+@media(max-width:810px) {
+
+   .navbar {
+      max-width: 3000px;
+      position: relative;
+   }
+
+   .nav__link {
+      display: none;
+   }
+
+   .naw__two_icon {
+      width: 150px;
+   }
+
+   /* 
+   .div__extra{
+      position: absolute;
+      left: 1000px;
+   }
+
+   .header__burger{
+      display: block;
+      width: 135px;
+      height: 105px;
+      position: relative;
+   }
+
+   .header__burger::before,
+   .header__burger::after{
+      content: '';
+      background-color: white;
+      position: absolute;
+      width: 100%;
+      height: 4px;
+      left: 0;
+   }
+
+   .header__burger::before{
+      top: 28px;
+   }
+
+   .header__burger::after{
+      bottom: 0;
+   }
+
+   .header__burger span{
+      position: absolute;
+      background-color: white;
+      left: 0;
+      width: 100%;
+      height: 4px;
+      top: 64px;
+   } */
+
+
+   .nav__logo_pic {
+      padding: 0 30px;
+      width: 450px;
+   }
+
+   .content {
+      flex-direction: column;
+      margin: auto;
+   }
+
+   .content__one {
+      display: flex;
+      flex-direction: column;
+      margin: auto;
+   }
+
+   .content__two {
+      display: flex;
+      justify-content: center;
+   }
+
+   .content__two-img {
+      width: 1430px;
+   }
+
+   .content__link {
+      width: max-content;
+      font-size: 55px;
+      margin: auto;
+   }
+
+   .artist__pic_extra__ultra {
+      display: none;
+   }
+
+   .artist_img__title_extra {
+      display: none;
+   }
+
+
+   .content__title {
+      width: 1523px;
+      font-size: 125px;
+   }
+
+   .content__desc {
+      width: 1327px;
+      font-size: 55px;
+      line-height: 60px;
+      display: -webkit-box;
+      overflow: hidden;
+      min-height: 5px;
+      word-spacing: normal;
+      text-overflow: ellipsis;
+      -webkit-box-orient: vertical;
+      -webkit-line-clamp: 2;
+   }
+
+
+}
+
+/* **********************************************************************MEDIA 600PX **********************************************************/
+
+@media(max-width:600px) {
+   .content__title {
+      width: 100%;
+      max-width: 2330px;
+      text-align: center;
+      font-size: 90px;
+   }
+
+   .content__desc {
+      font-size: 43px;
+      margin: auto;
+      text-align: center;
+      width: 1020px;
+   }
+
+   .content__two-img {
+      width: 1145px;
+      margin-left: 6px;
+   }
+
+
+
+   .main__one_bir {
+      margin: auto;
+   }
+
+   .main__one {
+      flex-direction: column;
+      justify-content: center;
+   }
+
+   .main__one_ikki__title {
+      margin: 0 auto 50px;
+      width: 900px;
+   }
+
+   .artist_img__one {
+      flex-wrap: wrap;
+      margin: auto;
+   }
+
+   .artist_img__two {
+      flex-wrap: wrap;
+      margin: auto;
+   }
+
+   .main_artist__imgages {
+      margin: 127px auto 258px auto;
+   }
+
+   .roadmap-cards__one,
+   .roadmap-cards__two,
+   .roadmap-cards__tree {
+      max-width: 1120px;
+   }
+
+   .roadmap-cards__pic {
+      width: 480px;
+      margin-left: -187px;
+   }
+
+   .roadmap-cards__pic,
+   .roadmap__extra_more,
+   .roadmap__extra_more {
+      width: 547px;
+   }
+
+   .roadmap__ultra_extra {
+      margin-left: -283px;
+   }
+
+   .roadmap__ultra_super__extra {
+      margin-left: -100px;
+   }
+
+   .roadmap__extra_more {
+      display: -webkit-box;
+      overflow: hidden;
+      min-height: 133px;
+      word-spacing: normal;
+      text-overflow: ellipsis;
+      -webkit-box-orient: vertical;
+      -webkit-line-clamp: 4;
+   }
+
+   .roadmap-cards__two-pas_desc-one {
+      width: 541px;
+      height: 80px;
+   }
+
+   .main__one_ikki__link {
+      display: none;
+   }
+
+   .main__one_ikki__desc__one,
+   .main__one_ikki__desc__two,
+   .main__one_ikki__desc__three {
+      margin: auto;
+   }
+
+   .main__one_ikki__desc__three {
+      margin-bottom: 50px;
+   }
+
+   .slider-item {
+      margin-top: 17px;
+   }
+
+   .artist_img__two {
+      justify-content: center;
+   }
+
+   .frequently {
+      flex-direction: column;
+      align-items: center;
+   }
+
+   .frequently-one {
+      width: 970px;
+   }
+
+   .discord {
+      flex-direction: column;
+      align-items: center;
+   }
+
+   .discord-two {
+      width: 1392px;
+   }
+
+   .footer {
+      position: relative;
+   }
+
+   .footer__icons_pic {
+      position: absolute;
+      top: 366px;
+      right: 478px;
+   }
+
+   .nav__two {
+      width: 648px;
+   }
+
+   .naw__two_icon {
+      width: 120px;
+   }
+
+   .content__one {
+      margin: 0;
+   }
+
+   .content__link {
+      font-size: 48px;
+   }
+
+   .main__one_bir-title__one {
+      margin: auto;
+   }
+
+   .tabs__links-item {
+      font-size: 35px;
+      width: 414px;
+   }
+
+   .tab-content__desc_one,
+   .tab-content__desc_two,
+   .tab-content__desc_tree {
+      width: 500px;
+      display: -webkit-box;
+      overflow: hidden;
+      min-height: 133px;
+      word-spacing: normal;
+      text-overflow: ellipsis;
+      -webkit-box-orient: vertical;
+      -webkit-line-clamp: 4;
+   }
+
+   .tab-content__title {
+      width: 300px;
+      margin-left: 100px;
+      display: -webkit-box;
+      overflow: hidden;
+      min-height: 133px;
+      word-spacing: normal;
+      text-overflow: ellipsis;
+      -webkit-box-orient: vertical;
+      -webkit-line-clamp: 4;
+   }
+
+   .tab_conten__extra {
+      width: 812px;
+   }
+
+   .tab-content__img {
+      margin-left: -15px;
+   }
+
+   .tab-content__img-extra {
+      margin-left: -125px;
+   }
+
+   .team-cards {
+      width: 980px;
+   }
+
+   .team-cards__one-desc,
+   .team-cards__two-desc,
+   .team-cards__tree-desc {
+      margin: auto;
+   }
+
+}

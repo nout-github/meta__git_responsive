@@ -1,0 +1,71 @@
+*,
+*::before,
+*::after {
+	box-sizing: border-box;
+}
+
+body {
+	margin: 0;
+	font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+	font-size: 16px;
+	font-weight: 400;
+	line-height: 1.5;
+	color: #333;
+	background-color: #fff;
+	padding: 30px;
+}
+
+.container {
+	max-width: 500px;
+	margin-left: auto;
+	margin-right: auto;
+	padding-left: 15px;
+	padding-right: 15px;
+}
+
+.tabs {
+	display: flex;
+	flex-direction: column;
+}
+
+.tabs__links {
+	display: flex;
+	overflow: hidden;
+	width: 100%;
+	margin-left: auto;
+	margin-right: auto;
+	order: 0;
+	margin-bottom: 10px;
+	background-color: #fff;
+	border: 1px solid #333;
+	border-radius: 10px;
+}
+
+.tabs__links > a {
+	display: inline-block;
+	text-decoration: none;
+	padding: 6px 10px;
+	text-align: center;
+	color: #333;
+	flex: 0 1 33.333%;
+}
+
+.tabs__links > a:hover {
+	background-color: rgba(227, 242, 253, 0.3);
+}
+
+.tabs > #tab-1:target ~ .tabs__links > a[href="#tab-1"],
+.tabs > #tab-2:target ~ .tabs__links > a[href="#tab-2"],
+.tabs > #tab-3:target ~ .tabs__links > a[href="#tab-3"] {
+	background-color: #bbdefb;
+	cursor: default;
+}
+
+.tabs > div:not(.tabs__links) {
+	display: none;
+	order: 1;
+}
+
+.tabs > div:target {
+	display: block;
+}
